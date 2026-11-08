@@ -10,7 +10,7 @@ export default function Footer() {
         <a className="btn" href={profile.github} target="_blank" rel="noreferrer">GitHub</a>
         <a className="btn" href={`mailto:${profile.email}`}>{profile.email}</a>
       </div>
-      <small>© {new Date().getFullYear()} {profile.name}</small>
+      <small>© {new Date().getFullYear()} {t(profile.name)}</small>
     </footer>
   );
 }

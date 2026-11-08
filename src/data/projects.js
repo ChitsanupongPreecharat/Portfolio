@@ -1,7 +1,10 @@
 
 
 export const profile = {
-  name: 'Chitsanupong Preecharat',
+  name: {
+    en: 'Mr.Chitsanupong Preecharat',
+    th: 'นายชิษณุพงศ์ ปรีชารัตน์'
+  },
   title: {
     en: "Computer Engineering student (3rd year)\nking mongkut's institute of technology ladkrabang",
     th: 'นักศึกษาวิศวกรรมคอมพิวเตอร์ ชั้นปีที่ 3\nสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง',

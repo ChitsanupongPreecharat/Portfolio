@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <header className="hero container" id="top">
       <div className="hero-text">
-        <h1>{profile.name}</h1>
+        <h1>{t(profile.name)}</h1>
         <p className="title">{t(profile.title)}</p>
         <div className="intro">
           {t(profile.intro).map((para) => <p key={para}>{para}</p>)}

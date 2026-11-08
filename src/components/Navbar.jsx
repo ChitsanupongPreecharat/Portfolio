@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="container nav-inner">
-        <a className="nav-brand" href="#top">{profile.name}</a>
+        <a className="nav-brand" href="#top">{t(profile.name)}</a>
         <div className="nav-links">
           <a href={profile.github} target="_blank" rel="noreferrer">{t(ui.github)}</a>
           <a href={`mailto:${profile.email}`}>{t(ui.email)}</a>

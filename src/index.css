@@ -79,7 +79,8 @@ h2 {
   gap: 48px;
   padding: 80px 20px 64px;
 }
-.hero h1 { margin: 0; font-size: clamp(32px, 6vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+.hero-text { container-type: inline-size; min-width: 0; }
+.hero h1 { margin: 0; font-size: clamp(18px, 6.6cqi, 56px); white-space: nowrap; font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
 .hero .title { margin: 12px 0 0; font-size: 18px; color: var(--muted); white-space: pre-line; }
 .hero .intro { margin-top: 20px; font-size: 17px; }
 .hero .intro p { margin: 0 0 14px; }
