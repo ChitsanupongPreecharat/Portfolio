@@ -6,19 +6,19 @@ export const profile = {
     th: 'นายชิษณุพงศ์ ปรีชารัตน์'
   },
   title: {
-    en: "Computer Engineering student (3rd year)\nking mongkut's institute of technology ladkrabang",
-    th: 'นักศึกษาวิศวกรรมคอมพิวเตอร์ ชั้นปีที่ 3\nสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง',
+    en: "Computer Engineering student (3rd year)\n GPA : 3.04 (through Year 2) \nKing mongkut's institute of technology ladkrabang",
+    th: 'นักศึกษาวิศวกรรมคอมพิวเตอร์ ชั้นปีที่ 3\n GPA : 3.04 (ตลอด 2 ปีการศึกษา) \nสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง',
   },
   intro: {
     en: [
-      "I'm Chitsanupong Preecharat, a third-year Computer Engineering student at King Mongkut's Institute of Technology Ladkrabang (KMITL). I enjoy building systems end to end: the database and APIs on the backend, the data and models that make sense of it, and the boards and firmware that collect it in the first place.",
-      "At KMITL's Smart City Research Center, I designed a PostgreSQL + PostGIS database and wrote NestJS APIs for a satellite vehicle-tracking proof-of-concept, and gathered requirements from stakeholders for an executive dashboard. Through coursework and my own projects, I've built web apps with ASP.NET Core, coded regression models from scratch in NumPy, trained a CNN in TensorFlow and designed an ESP32-S3 board in EasyEDA.",
-      "I'm looking for an internship starting April 2027 where I can keep working across software, data and hardware.",
+      'I have a broad range of interests within computer engineering, from backend services and databases to data analysis, machine learning and embedded hardware. Rather than confining myself to a single field, I am drawn to exploring different areas, and I genuinely enjoy the process of discovering new knowledge and understanding how things work.',
+      'This curiosity has shaped my experience. As a member of the Smart City Research Center at KMITL, I developed the backend for a satellite vehicle-tracking proof-of-concept, covering data-flow planning, PostgreSQL and PostGIS database design, and API development with NestJS. I also gathered requirements from stakeholders for an executive dashboard. Through coursework and personal projects, I have built web applications with ASP.NET Core, implemented regression models from scratch in NumPy, trained a convolutional neural network in TensorFlow and designed an ESP32-S3 board in EasyEDA.',
+      'Working across these fields has taught me to see how each part of a system connects to the others. I am currently seeking an internship commencing in April 2027, where I can continue learning, take on new challenges and contribute to real-world projects.',
     ],
     th: [
-      'ผมชื่อชิษณุพงศ์ ปรีชารัตน์ นักศึกษาวิศวกรรมคอมพิวเตอร์ชั้นปีที่ 3 สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (สจล.) ผมชอบสร้างระบบให้ครบทั้งเส้นทาง ตั้งแต่ฐานข้อมูลและ API ฝั่ง backend ไปจนถึงข้อมูลและโมเดลที่ช่วยให้ข้อมูลเหล่านั้นมีความหมาย และลงไปถึงบอร์ดกับเฟิร์มแวร์ที่ใช้เก็บข้อมูลตั้งแต่ต้นทาง',
-      'ที่ศูนย์วิจัย Smart City (SMC) สจล. ผมออกแบบฐานข้อมูล PostgreSQL + PostGIS และเขียน API ด้วย NestJS ให้ระบบต้นแบบติดตามยานพาหนะผ่านดาวเทียม รวมถึงเก็บ requirement จากผู้เกี่ยวข้องสำหรับ dashboard ผู้บริหาร ส่วนในรายวิชาและโปรเจกต์ส่วนตัว ผมเคยพัฒนาเว็บแอปด้วย ASP.NET Core เขียนโมเดล regression เองตั้งแต่ต้นด้วย NumPy เทรน CNN ด้วย TensorFlow และออกแบบบอร์ด ESP32-S3 ใน EasyEDA',
-      'ผมกำลังมองหาที่ฝึกงานที่เริ่มเดือนเมษายน 2570 ซึ่งได้ทำงานครอบคลุมทั้งซอฟต์แวร์ ข้อมูล และฮาร์ดแวร์',
+      'ผมมีความสนใจในหลากหลายสาขาของวิศวกรรมคอมพิวเตอร์ ตั้งแต่ระบบ backend และฐานข้อมูล การวิเคราะห์ข้อมูลและ machine learning ไปจนถึงฮาร์ดแวร์แบบ embedded แทนที่จะจำกัดตัวเองไว้ในสายใดสายหนึ่ง ผมเลือกที่จะเรียนรู้หลายด้าน เพราะผมสนุกกับการค้นพบความรู้ใหม่ ๆ และการทำความเข้าใจว่าสิ่งต่าง ๆ ทำงานอย่างไร',
+      'ความสนใจนี้หล่อหลอมประสบการณ์ของผม ในฐานะสมาชิกศูนย์วิจัยเมืองอัจฉริยะ สจล. ผมได้พัฒนา backend สำหรับระบบต้นแบบติดตามยานพาหนะผ่านดาวเทียม ตั้งแต่การวางแผน data flow การออกแบบฐานข้อมูล PostgreSQL และ PostGIS ไปจนถึงการพัฒนา API ด้วย NestJS รวมถึงได้รวบรวม requirement จากผู้มีส่วนเกี่ยวข้องสำหรับ dashboard ผู้บริหาร นอกจากนี้ จากรายวิชาและโปรเจกต์ส่วนตัว ผมได้พัฒนาเว็บแอปพลิเคชันด้วย ASP.NET Core เขียนโมเดล regression ด้วย NumPy โดยไม่พึ่งไลบรารีสำเร็จรูป เทรน convolutional neural network ด้วย TensorFlow และออกแบบบอร์ด ESP32-S3 ด้วย EasyEDA',
+      'การได้ทำงานข้ามหลายสาขาทำให้ผมมองเห็นว่าแต่ละส่วนของระบบเชื่อมโยงกันอย่างไร ปัจจุบันผมกำลังมองหาโอกาสฝึกงานที่เริ่มต้นในเดือนเมษายน 2570 เพื่อเรียนรู้อย่างต่อเนื่อง รับมือกับความท้าทายใหม่ ๆ และร่วมพัฒนางานจริง',
     ],
   },
   photo: 'profile.jpg',
@@ -36,7 +36,7 @@ export const skills = [
 export const experience = [
   {
     role: { en: 'Research Center Member', th: 'สมาชิกศูนย์วิจัย' },
-    org: { en: 'Smart City Research Center (SMC), KMITL', th: 'ศูนย์วิจัย Smart City (SMC) สจล.' },
+    org: { en: 'Smart City Research Center (SMC), KMITL', th: 'ศูนย์วิจัยเมืองอัจฉริยะ สจล.' },
     period: 'Jul 2026 – Present',
     points: [
       {
