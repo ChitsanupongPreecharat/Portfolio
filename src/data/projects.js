@@ -1,12 +1,10 @@
-// All site content lives here. To add a GitHub link, fill in the `github` field.
-// Cards with an empty `github` simply don't show the button.
-// Text fields written as { en, th } switch with the EN/TH toggle; plain strings stay as-is.
+
 
 export const profile = {
   name: 'Chitsanupong Preecharat',
   title: {
-    en: 'Computer Engineering student at KMITL (3rd year)',
-    th: 'นักศึกษาวิศวกรรมคอมพิวเตอร์ ชั้นปีที่ 3 สจล. (KMITL)',
+    en: "Computer Engineering student (3rd year)\nking mongkut's institute of technology ladkrabang",
+    th: 'นักศึกษาวิศวกรรมคอมพิวเตอร์ ชั้นปีที่ 3\nสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง',
   },
   intro: {
     en: [

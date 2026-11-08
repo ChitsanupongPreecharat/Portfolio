@@ -80,7 +80,7 @@ h2 {
   padding: 80px 20px 64px;
 }
 .hero h1 { margin: 0; font-size: clamp(32px, 6vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
-.hero .title { margin: 12px 0 0; font-size: 18px; color: var(--muted); }
+.hero .title { margin: 12px 0 0; font-size: 18px; color: var(--muted); white-space: pre-line; }
 .hero .intro { margin-top: 20px; font-size: 17px; }
 .hero .intro p { margin: 0 0 14px; }
 .hero .intro p:last-child { margin-bottom: 0; }
@@ -187,7 +187,7 @@ footer small { display: block; margin-top: 32px; color: #525252; }
 
 @media (max-width: 768px) {
   .hero.container { grid-template-columns: 1fr; gap: 28px; padding: 40px 20px 48px; }
-  .hero-photo { order: -1; width: 220px; }
+  .hero-photo { order: -1; width: 220px; justify-self: center; }
 }
 
 @media (max-width: 600px) {
