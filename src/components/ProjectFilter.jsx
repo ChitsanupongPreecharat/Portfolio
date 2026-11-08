@@ -1,6 +1,8 @@
 import { categories } from '../data/projects.js';
+import { useLang, ui } from '../i18n.jsx';
 
 export default function ProjectFilter({ active, onChange }) {
+  const { t } = useLang();
   return (
     <div className="filter" role="tablist" aria-label="Project categories">
       {categories.map((c) => (
@@ -12,7 +14,7 @@ export default function ProjectFilter({ active, onChange }) {
           className={active === c ? 'active' : ''}
           onClick={() => onChange(c)}
         >
-          {c}
+          {c === 'All' ? t(ui.all) : c}
         </button>
       ))}
     </div>
