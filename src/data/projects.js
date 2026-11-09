@@ -33,6 +33,44 @@ export const skills = [
   { group: 'Design & Tools', items: ['UML', 'ER modeling', 'Figma', 'Git', 'Docker'] },
 ];
 
+export const softSkills = [
+  {
+    title: { en: 'Requirements gathering', th: 'Requirements gathering' },
+    text: {
+      en: 'Sat in stakeholder meetings for an executive dashboard project, gathered what each department needed and wrote the meeting minutes.',
+      th: 'เข้าประชุมกับผู้มีส่วนเกี่ยวข้องของโปรเจกต์ executive dashboard รวบรวมความต้องการของแต่ละฝ่าย และจัดทำรายงานการประชุม',
+    },
+  },
+  {
+    title: { en: 'Working across teams', th: 'Working across teams' },
+    text: {
+      en: 'Worked with the frontend team to agree on the APIs they needed for a command-center web app, then built them.',
+      th: 'ทำงานร่วมกับทีม frontend เพื่อตกลงว่าต้องใช้ API อะไรบ้างสำหรับเว็บแอปศูนย์บัญชาการ แล้วพัฒนาให้ตามนั้น',
+    },
+  },
+  {
+    title: { en: 'Technical & official writing', th: 'Technical & official writing' },
+    text: {
+      en: 'Wrote government-format proposals and meeting minutes. Used AI for first drafts, then checked the format, reworked the content and owned the final version.',
+      th: 'เขียนข้อเสนอโครงการตามรูปแบบหนังสือราชการและรายงานการประชุม ใช้ AI ช่วยร่าง แล้วตรวจรูปแบบ ปรับเนื้อหา และรับผิดชอบฉบับสุดท้ายเอง',
+    },
+  },
+  {
+    title: { en: 'Explaining technology to anyone', th: 'Explaining technology to anyone' },
+    text: {
+      en: 'Ran demos of the PIPEK health-screening mirror at about 10 events, helping visitors scan and explaining how it works in plain language.',
+      th: 'สาธิตกระจกตรวจสุขภาพ PIPEK ในงานประมาณ 10 งาน ช่วยผู้เข้าชมสแกนและอธิบายการทำงานด้วยภาษาที่เข้าใจง่าย',
+    },
+  },
+  {
+    title: { en: 'Learning on my own', th: 'Learning on my own' },
+    text: {
+      en: 'Taught myself PCB design by drawing my first ESP32 board from scratch, then used what I learned on a more complex ESP32-S3 camera board.',
+      th: 'เรียนรู้การออกแบบ PCB ด้วยตัวเอง โดยวาดบอร์ด ESP32 ตัวแรกตั้งแต่ศูนย์ แล้วนำความรู้ไปใช้กับบอร์ดกล้อง ESP32-S3 ที่ซับซ้อนกว่า',
+    },
+  },
+];
+
 export const experience = [
   {
     role: { en: 'Research Center Member', th: 'สมาชิกศูนย์วิจัย' },

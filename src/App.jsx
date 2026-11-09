@@ -4,6 +4,7 @@ import { useLang, ui } from './i18n.jsx';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Skills from './components/Skills.jsx';
+import SoftSkills from './components/SoftSkills.jsx';
 import Experience from './components/Experience.jsx';
 import ProjectFilter from './components/ProjectFilter.jsx';
 import ProjectCard from './components/ProjectCard.jsx';
@@ -20,6 +21,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Skills />
+      <SoftSkills />
       <Experience />
       <section className="container" id="projects">
         <h2>{t(ui.projects)}</h2>

@@ -10,6 +10,7 @@ export default function Navbar() {
         <div className="nav-links">
           <a href={profile.github} target="_blank" rel="noreferrer">{t(ui.github)}</a>
           <a href={`mailto:${profile.email}`}>{t(ui.email)}</a>
+          <a href="#skills">{t(ui.skills)}</a>
           <a href="#projects">{t(ui.projects)}</a>
         </div>
         <div className="lang-toggle" role="group" aria-label={t(ui.langLabel)}>

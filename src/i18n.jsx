@@ -33,6 +33,7 @@ export const ui = {
   email: { en: 'Email', th: 'อีเมล' },
   projects: { en: 'Projects', th: 'โปรเจกต์' },
   skills: { en: 'Skills', th: 'ทักษะ' },
+  softSkills: { en: 'Soft Skills', th: 'Soft Skills' },
   experience: { en: 'Experience', th: 'ประสบการณ์' },
   activities: { en: 'Activities', th: 'กิจกรรม' },
   contact: { en: 'Contact', th: 'ติดต่อ' },

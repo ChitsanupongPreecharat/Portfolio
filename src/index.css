@@ -180,6 +180,7 @@ ul.points li { margin: 4px 0; }
 /* Activities */
 .activity h3 { margin: 0; font-size: 17px; font-weight: 600; }
 .activity p { margin: 6px 0 0; color: var(--muted); }
+.soft-skills { display: grid; gap: 20px; }
 
 /* Footer */
 footer.container { padding: 48px 20px 64px; border-top: 1px solid var(--border); }
