@@ -11,14 +11,14 @@ export const profile = {
   },
   intro: {
     en: [
-      'I have a broad range of interests within computer engineering, from backend services and databases to data analysis, machine learning and embedded hardware. Rather than confining myself to a single field, I am drawn to exploring different areas, and I genuinely enjoy the process of discovering new knowledge and understanding how things work.',
-      'This curiosity has shaped my experience. As a member of the Smart City Research Center at KMITL, I developed the backend for a satellite vehicle-tracking proof-of-concept, covering data-flow planning, PostgreSQL and PostGIS database design, and API development with NestJS. I also gathered requirements from stakeholders for an executive dashboard. Through coursework and personal projects, I have built web applications with ASP.NET Core, implemented regression models from scratch in NumPy, trained a convolutional neural network in TensorFlow and designed an ESP32-S3 board in EasyEDA.',
-      'Working across these fields has taught me to see how each part of a system connects to the others. I am currently seeking an internship commencing in April 2027, where I can continue learning, take on new challenges and contribute to real-world projects.',
+      'My interests in computer engineering are broad, spanning backend services and databases, data analytics, machine learning and embedded systems. Rather than focusing on a single area, I enjoy exploring different fields, learning new things and finding out how they actually work.',
+      'This curiosity has led me to a diverse range of projects. At the Smart City Research Center at KMITL, I built the backend for a satellite vehicle-tracking proof of concept, designing the data flow and the PostgreSQL/PostGIS database and developing the APIs with NestJS. I also gathered requirements from stakeholders for an executive dashboard. Beyond the research center, I have built a web application with C# and ASP.NET Core, written regression models from scratch in NumPy, trained a convolutional neural network in TensorFlow, and am designing my own ESP32-S3 board in EasyEDA.',
+      'Working across these fields has shown me how each part of a system relates to and affects the others. I am looking for an internship starting in April 2027, where I can keep learning, grow professionally and contribute to real-world projects.',
     ],
     th: [
-      'ผมมีความสนใจในหลากหลายสาขาของวิศวกรรมคอมพิวเตอร์ ตั้งแต่ระบบ backend และฐานข้อมูล การวิเคราะห์ข้อมูลและ machine learning ไปจนถึงฮาร์ดแวร์แบบ embedded แทนที่จะจำกัดตัวเองไว้ในสายใดสายหนึ่ง ผมเลือกที่จะเรียนรู้หลายด้าน เพราะผมสนุกกับการค้นพบความรู้ใหม่ ๆ และการทำความเข้าใจว่าสิ่งต่าง ๆ ทำงานอย่างไร',
-      'ความสนใจนี้หล่อหลอมประสบการณ์ของผม ในฐานะสมาชิกศูนย์วิจัยเมืองอัจฉริยะ สจล. ผมได้พัฒนา backend สำหรับระบบต้นแบบติดตามยานพาหนะผ่านดาวเทียม ตั้งแต่การวางแผน data flow การออกแบบฐานข้อมูล PostgreSQL และ PostGIS ไปจนถึงการพัฒนา API ด้วย NestJS รวมถึงได้รวบรวม requirement จากผู้มีส่วนเกี่ยวข้องสำหรับ dashboard ผู้บริหาร นอกจากนี้ จากรายวิชาและโปรเจกต์ส่วนตัว ผมได้พัฒนาเว็บแอปพลิเคชันด้วย ASP.NET Core เขียนโมเดล regression ด้วย NumPy โดยไม่พึ่งไลบรารีสำเร็จรูป เทรน convolutional neural network ด้วย TensorFlow และออกแบบบอร์ด ESP32-S3 ด้วย EasyEDA',
-      'การได้ทำงานข้ามหลายสาขาทำให้ผมมองเห็นว่าแต่ละส่วนของระบบเชื่อมโยงกันอย่างไร ปัจจุบันผมกำลังมองหาโอกาสฝึกงานที่เริ่มต้นในเดือนเมษายน 2570 เพื่อเรียนรู้อย่างต่อเนื่อง รับมือกับความท้าทายใหม่ ๆ และร่วมพัฒนางานจริง',
+      'ผมมีความสนใจในวิศวกรรมคอมพิวเตอร์อย่างกว้างขวาง ครอบคลุมทั้งระบบ backend และฐานข้อมูล การวิเคราะห์ข้อมูล machine learning และระบบ embedded แทนที่จะมุ่งเน้นเพียงด้านเดียว ผมชอบสำรวจสาขาต่าง ๆ เรียนรู้สิ่งใหม่ และค้นหาว่าสิ่งเหล่านั้นทำงานอย่างไรจริง ๆ',
+      'ความอยากรู้นี้พาผมไปสู่โปรเจกต์ที่หลากหลาย ที่ศูนย์วิจัยเมืองอัจฉริยะ สจล. ผมได้พัฒนา backend สำหรับระบบต้นแบบติดตามยานพาหนะผ่านดาวเทียม โดยออกแบบ data flow และฐานข้อมูล PostgreSQL/PostGIS และพัฒนา API ด้วย NestJS รวมถึงได้รวบรวม requirement จากผู้มีส่วนเกี่ยวข้องสำหรับ dashboard ผู้บริหาร นอกเหนือจากงานที่ศูนย์วิจัย ผมได้พัฒนาเว็บแอปพลิเคชันด้วย C# และ ASP.NET Core เขียนโมเดล regression เองตั้งแต่ต้นด้วย NumPy เทรน convolutional neural network ด้วย TensorFlow และกำลังออกแบบบอร์ด ESP32-S3 ของตัวเองด้วย EasyEDA',
+      'การได้ทำงานข้ามหลายสาขาทำให้ผมเห็นว่าแต่ละส่วนของระบบเกี่ยวข้องและส่งผลต่อกันอย่างไร ผมกำลังมองหาโอกาสฝึกงานที่เริ่มต้นในเดือนเมษายน 2570 ซึ่งผมจะได้เรียนรู้อย่างต่อเนื่อง เติบโตในสายอาชีพ และร่วมพัฒนางานจริง',
     ],
   },
   photo: 'profile.jpg',
@@ -127,6 +127,24 @@ export const projects = [
     github: '',
   },
   {
+    title: 'ESP32-S3 Custom Dev Board',
+    category: 'Hardware & Embedded',
+    context: { en: 'Personal project', th: 'โปรเจกต์ส่วนตัว' },
+    period: 'Apr – May 2026',
+    points: [
+      {
+        en: 'Designed my own ESP32-S3 development board (ESP32-S3-WROOM-1 N16R8) in EasyEDA, from schematic to PCB layout.',
+        th: 'ออกแบบบอร์ดพัฒนา ESP32-S3 ของตัวเอง (ESP32-S3-WROOM-1 N16R8) ใน EasyEDA ตั้งแต่ schematic จนถึง PCB layout',
+      },
+      {
+        en: 'Includes USB-C with native USB data lines, an AMS1117 5V-to-3.3V regulator, reset and boot buttons, status LEDs and two 20-pin headers that break out the GPIOs.',
+        th: 'มี USB-C ที่ต่อสาย data เข้า native USB, วงจรแปลงไฟ 5V เป็น 3.3V ด้วย AMS1117, ปุ่ม reset และ boot, LED แสดงสถานะ และ header 20 ขาสองแถวสำหรับใช้งาน GPIO',
+      },
+    ],
+    tags: ['ESP32-S3', 'EasyEDA', 'PCB Design'],
+    github: 'https://github.com/ChitsanupongPreecharat/ESP32-Custom-Design',
+  },
+  {
     title: 'ESP32-S3 Camera AI Edge',
     category: 'Hardware & Embedded',
     context: { en: 'Personal project', th: 'โปรเจกต์ส่วนตัว' },
@@ -139,7 +157,7 @@ export const projects = [
       },
     ],
     tags: ['ESP32-S3', 'EasyEDA', 'PCB Design'],
-    github: '',
+    github: 'https://github.com/ChitsanupongPreecharat/ESP32-AdgeAI-design',
   },
   {
     title: 'POWER-TESTER Booth',
