@@ -16,14 +16,14 @@ export const profile = {
       'Working across these fields has shown me how each part of a system relates to and affects the others. I am looking for an internship starting in April 2027, where I can keep learning, grow professionally and contribute to real-world projects.',
     ],
     th: [
-      'ผมมีความสนใจในวิศวกรรมคอมพิวเตอร์อย่างกว้างขวาง ครอบคลุมทั้งระบบ backend และฐานข้อมูล การวิเคราะห์ข้อมูล machine learning และระบบ embedded แทนที่จะมุ่งเน้นเพียงด้านเดียว ผมชอบสำรวจสาขาต่าง ๆ เรียนรู้สิ่งใหม่ และค้นหาว่าสิ่งเหล่านั้นทำงานอย่างไรจริง ๆ',
+      'ผมมีความสนใจในวิศวกรรมคอมพิวเตอร์หลากหลายด้าน ครอบคลุมทั้งระบบ backend และฐานข้อมูล การวิเคราะห์ข้อมูล machine learning และระบบ embedded แทนที่จะมุ่งเน้นเพียงด้านเดียว ผมชอบสำรวจสาขาต่าง ๆ เรียนรู้สิ่งใหม่ และค้นหาว่าสิ่งเหล่านั้นทำงานอย่างไรจริง ๆ',
       'ความอยากรู้นี้พาผมไปสู่โปรเจกต์ที่หลากหลาย ที่ศูนย์วิจัยเมืองอัจฉริยะ สจล. ผมได้พัฒนา backend สำหรับระบบต้นแบบติดตามยานพาหนะผ่านดาวเทียม โดยออกแบบ data flow และฐานข้อมูล PostgreSQL/PostGIS และพัฒนา API ด้วย NestJS รวมถึงได้รวบรวม requirement จากผู้มีส่วนเกี่ยวข้องสำหรับ dashboard ผู้บริหาร นอกเหนือจากงานที่ศูนย์วิจัย ผมได้พัฒนาเว็บแอปพลิเคชันด้วย C# และ ASP.NET Core เขียนโมเดล regression เองตั้งแต่ต้นด้วย NumPy เทรน convolutional neural network ด้วย TensorFlow และกำลังออกแบบบอร์ด ESP32-S3 ของตัวเองด้วย EasyEDA',
       'การได้ทำงานข้ามหลายสาขาทำให้ผมเห็นว่าแต่ละส่วนของระบบเกี่ยวข้องและส่งผลต่อกันอย่างไร ผมกำลังมองหาโอกาสฝึกงานที่เริ่มต้นในเดือนเมษายน 2570 ซึ่งผมจะได้เรียนรู้อย่างต่อเนื่อง เติบโตในสายอาชีพ และร่วมพัฒนางานจริง',
     ],
   },
   photo: 'profile.jpg',
   github: 'https://github.com/chitsanupongpreecharat',
-  email: 'chitsanupongpreecharat@gmail.com',
+  email: 'chitsanupongแกecharat@gmail.com',
 };
 
 export const skills = [
@@ -77,10 +77,7 @@ export const experience = [
     org: { en: 'Smart City Research Center (SMC), KMITL', th: 'ศูนย์วิจัยเมืองอัจฉริยะ สจล.' },
     period: 'Jul 2026 – Present',
     points: [
-      {
-        en: 'Built the backend for a satellite vehicle-tracking proof-of-concept: planned the data flow, designed the PostgreSQL + PostGIS database and wrote the NestJS APIs.',
-        th: 'พัฒนา backend ให้ระบบ proof-of-concept ติดตามยานพาหนะผ่านดาวเทียม: วางแผน data flow ออกแบบฐานข้อมูล PostgreSQL + PostGIS และเขียน API ด้วย NestJS',
-      },
+      
       {
         en: 'Gathered requirements from stakeholders for an executive dashboard project.',
         th: 'เก็บ requirement จาก stakeholder สำหรับโปรเจกต์ executive dashboard',
