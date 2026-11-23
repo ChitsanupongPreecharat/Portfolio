@@ -82,6 +82,14 @@ export const experience = [
         en: 'Gathered requirements from stakeholders for an executive dashboard project.',
         th: 'เก็บ requirement จาก stakeholder สำหรับโปรเจกต์ executive dashboard',
       },
+      {
+        en: 'Built the project-execution step of a project and budget management web app (React, NestJS, PostgreSQL) in a team: payment milestones, a budget-control table, and change requests that officers approve.',
+        th: 'พัฒนาขั้นการดำเนินโครงการของเว็บแอปบริหารโครงการและงบประมาณ (React, NestJS, PostgreSQL) ร่วมกับทีม: งวดงานและงวดเงิน ตารางคุมงบ และคำขอแก้ไขโครงการที่เจ้าหน้าที่อนุมัติ',
+      },
+      {
+        en: 'Generated the 6-document disbursement set as Word files from the same finance data, checking that totals reconcile before every export, with a preview page before download.',
+        th: 'สร้างชุดเอกสารเบิกจ่าย 6 ฉบับเป็นไฟล์ Word จากข้อมูลการเงินชุดเดียวกัน ตรวจยอดให้ตรงกันก่อนสร้างทุกครั้ง พร้อมหน้าดูเอกสารก่อนดาวน์โหลด',
+      },
     ],
   },
 ];
@@ -124,6 +132,27 @@ export const projects = [
     ],
     tags: ['UML', 'Database Design', 'Figma'],
     github: '',
+  },
+  {
+    title: 'Project & Budget Management System',
+    category: 'Software & Full Stack',
+    context: { en: 'Smart City Research Center, KMITL (team project)', th: 'ศูนย์วิจัยเมืองอัจฉริยะ สจล. (งานทีม)' },
+    period: 'Nov 2026',
+    points: [
+      {
+        en: "A web app that helps lecturers set up academic-service projects and checks their budgets against the university's standard rates.",
+        th: 'เว็บแอปช่วยอาจารย์ตั้งโครงการบริการวิชาการ และตรวจงบประมาณเทียบกับอัตรากลางของสถาบัน',
+      },
+      {
+        en: 'Built the project-execution step: payment milestones, a budget-control table, and change requests (budget, timeline, staff) that officers approve before that part unlocks.',
+        th: 'พัฒนาขั้นการดำเนินโครงการ: งวดงานและงวดเงิน ตารางคุมงบ และคำขอแก้ไขโครงการ (งบ เวลา บุคลากร) ที่เจ้าหน้าที่อนุมัติแล้วจึงปลดล็อกเฉพาะเรื่องนั้น',
+      },
+      {
+        en: 'Generated the 6-document disbursement set as Word files from the same finance data, checking that totals reconcile before every export, with a preview page before download.',
+        th: 'สร้างชุดเอกสารเบิกจ่าย 6 ฉบับเป็นไฟล์ Word จากข้อมูลการเงินชุดเดียวกัน ตรวจยอดให้ตรงกันก่อนสร้างทุกครั้ง พร้อมหน้าดูเอกสารก่อนดาวน์โหลด',
+      },
+    ],
+    tags: ['React', 'NestJS', 'TypeScript', 'PostgreSQL'],
   },
   {
     title: 'E-commerce Sales Forecasting',
