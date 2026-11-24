@@ -12,9 +12,21 @@ export default function Experience() {
             <h3>{t(e.role)} <span className="exp-org">· {t(e.org)}</span></h3>
             <span className="period">{e.period}</span>
           </div>
-          <ul className="points">
-            {e.points.map((p) => <li key={p.en}>{t(p)}</li>)}
-          </ul>
+          {e.projects ? e.projects.map((p) => (
+            <div className="exp-project" key={p.title.en}>
+              <div className="exp-project-head">
+                <h4>{t(p.title)}</h4>
+                {p.period && <span className="period">{p.period}</span>}
+              </div>
+              <ul className="points">
+                {p.points.map((pt) => <li key={pt.en}>{t(pt)}</li>)}
+              </ul>
+            </div>
+          )) : (
+            <ul className="points">
+              {e.points.map((p) => <li key={p.en}>{t(p)}</li>)}
+            </ul>
+          )}
         </div>
       ))}
     </section>

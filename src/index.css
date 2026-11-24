@@ -130,6 +130,10 @@ h2 {
 
 ul.points { margin: 12px 0 0; padding-left: 20px; }
 ul.points li { margin: 4px 0; }
+.exp-project { margin-top: 14px; }
+.exp-project-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; }
+.exp-project-head h4 { margin: 0; font-size: 15px; font-weight: 600; }
+.exp-project ul.points { margin-top: 6px; }
 
 /* Project filter */
 .filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }

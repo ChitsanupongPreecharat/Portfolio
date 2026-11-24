@@ -76,19 +76,43 @@ export const experience = [
     role: { en: 'Research Center Member', th: 'สมาชิกศูนย์วิจัย' },
     org: { en: 'Smart City Research Center (SMC), KMITL', th: 'ศูนย์วิจัยเมืองอัจฉริยะ สจล.' },
     period: 'Jul 2026 – Present',
-    points: [
-      
+    projects: [
       {
-        en: 'Gathered requirements from stakeholders for an executive dashboard project.',
-        th: 'เก็บ requirement จาก stakeholder สำหรับโปรเจกต์ executive dashboard',
+        title: { en: 'NHA executive dashboard', th: 'Dashboard ผู้บริหาร การเคหะแห่งชาติ (NHA)' },
+        period: 'Oct 2026',
+        points: [
+          {
+            en: "Studied the National Housing Authority's database to understand its data, then analyzed the data to plan what the executive dashboard should show.",
+            th: 'ศึกษาฐานข้อมูลของการเคหะแห่งชาติเพื่อทำความเข้าใจข้อมูล แล้ววิเคราะห์ข้อมูลเพื่อวางแผนว่า dashboard ผู้บริหารควรแสดงอะไร',
+          },
+          {
+            en: "Gathered requirements from NHA departments in stakeholder meetings and wrote the meeting minutes.",
+            th: 'เก็บ requirement จากฝ่ายต่าง ๆ ของการเคหะแห่งชาติในการประชุมกับ stakeholder และจัดทำรายงานการประชุม',
+          },
+        ],
       },
       {
-        en: 'Built the project-execution step of a project and budget management web app (React, NestJS, PostgreSQL) in a team: payment milestones, a budget-control table, and change requests that officers approve.',
-        th: 'พัฒนาขั้นการดำเนินโครงการของเว็บแอปบริหารโครงการและงบประมาณ (React, NestJS, PostgreSQL) ร่วมกับทีม: งวดงานและงวดเงิน ตารางคุมงบ และคำขอแก้ไขโครงการที่เจ้าหน้าที่อนุมัติ',
+        title: { en: 'KRIS project & budget management system (KMITL)', th: 'ระบบบริหารโครงการและงบประมาณ KRIS สจล.' },
+        period: 'Nov 2026',
+        points: [
+          {
+            en: 'Built the project-execution step of a project and budget management web app (React, NestJS, PostgreSQL) in a team: payment milestones, a budget-control table, and change requests that officers approve.',
+            th: 'พัฒนาขั้นการดำเนินโครงการของเว็บแอปบริหารโครงการและงบประมาณ (React, NestJS, PostgreSQL) ร่วมกับทีม: งวดงานและงวดเงิน ตารางคุมงบ และคำขอแก้ไขโครงการที่เจ้าหน้าที่อนุมัติ',
+          },
+          {
+            en: 'Generated the 6-document disbursement set as Word files from the same finance data, checking that totals reconcile before every export, with a preview page before download.',
+            th: 'สร้างชุดเอกสารเบิกจ่าย 6 ฉบับเป็นไฟล์ Word จากข้อมูลการเงินชุดเดียวกัน ตรวจยอดให้ตรงกันก่อนสร้างทุกครั้ง พร้อมหน้าดูเอกสารก่อนดาวน์โหลด',
+          },
+        ],
       },
       {
-        en: 'Generated the 6-document disbursement set as Word files from the same finance data, checking that totals reconcile before every export, with a preview page before download.',
-        th: 'สร้างชุดเอกสารเบิกจ่าย 6 ฉบับเป็นไฟล์ Word จากข้อมูลการเงินชุดเดียวกัน ตรวจยอดให้ตรงกันก่อนสร้างทุกครั้ง พร้อมหน้าดูเอกสารก่อนดาวน์โหลด',
+        title: { en: 'PIPEK health-screening mirror booth', th: 'บูธกระจกตรวจสุขภาพ PIPEK' },
+        points: [
+          {
+            en: 'Ran demos at about 10 events, helping visitors scan and explaining how it works in plain language.',
+            th: 'สาธิตในงานประมาณ 10 งาน ช่วยผู้เข้าชมสแกนและอธิบายการทำงานด้วยภาษาที่เข้าใจง่าย',
+          },
+        ],
       },
     ],
   },
